@@ -1,4 +1,4 @@
-# pdfToWord
+# PDF To Word
 pdf to text files and word file
 
 ## Requirements:
