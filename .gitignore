@@ -123,6 +123,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 .dmypy.json
+
+
+/out
+/txt
 dmypy.json
 
 # Pyre type checker
