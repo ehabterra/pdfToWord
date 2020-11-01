@@ -7,17 +7,27 @@ pdf to text files and word file
 
 ## Example:
 
-### Create new environment:
+- Create new environment:
+```bash
 conda create -n pdfToWordEnv python=3.8
+```
 
-### Make sure the environment exists:
+- Make sure the environment exists:
+```bash
 conda list
+```
 
-### Activate the environment:
+- Activate the environment:
+```bash
 conda activate pdfToWordEnv
+```
 
-### Install packages:
+- Install packages:
+```bash
 pip install -r requirements.txt
+```
 
-### Run the test file:
+- Run the test file:
+```bash
 python ./pdftoword.py -pdf scansmpl.pdf -c True -l eng
+```
