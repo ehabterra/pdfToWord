@@ -1,5 +1,7 @@
 # PDF To Word
-pdf to text files and word file
+This tool converts PDF of text images to: 
+- Multiple text files (text file for each image/page) 
+- Word file (not implemented yet)
 
 ## Requirements:
 This tool depends on the following programs, please install them before using it:
