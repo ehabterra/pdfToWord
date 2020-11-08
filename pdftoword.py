@@ -54,7 +54,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-pdf', '--pdf', type=str, help='name of pdf file. pdf file to generate image files in out directory')
     parser.add_argument('-doc', '--docx', type=str, help='name of docx file. transform images to docx file')
-    parser.add_argument('-c', '--convert', type=bool, help='flag to convert images. convert each page to text files and save them in txt directory')
+    parser.add_argument('-c', '--convert', type=bool, help='flag to convert images. convert each page to a text file and save all text files in txt directory')
     parser.add_argument('-l', '--lang', type=str, help='language to convert')
     parser.print_help()
     args = parser.parse_args()
